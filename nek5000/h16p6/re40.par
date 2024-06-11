@@ -1,0 +1,30 @@
+#
+# nek parameter file
+#
+
+[GENERAL]
+
+startFrom = 0
+numSteps = 12000
+dt = 0.005
+variableDT = no
+writeControl = timeStep
+writeInterval = 60
+
+[PRESSURE]
+preconditioner = semg_xxt
+residualTol = 0.100000E-08
+residualProj = no
+writeToFieldFile = yes
+
+[VELOCITY]
+residualTol = 0.100000E-08
+residualProj = no
+density = 1.0
+viscosity = -40
+writeToFieldFile = yes
+
+[_CHKPT]             # Runtime paramere section for checkpoint module
+READCHKPT = no                     # Restat from checkpoint
+CHKPFNUMBER0 = 2                      # Restart file number
+CHKPINTERVAL = 25                     # Checkpiont saving frequency (number of time steps)
