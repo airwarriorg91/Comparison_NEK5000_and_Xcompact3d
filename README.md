@@ -14,5 +14,7 @@ be improved further by increasing the number of elements near the cylinder body 
 the domain big enough such that the far-field boundary condition is achieved. NEK5000 simulations allow mesh refinement in all directions unlike Xcompact3D and hence require less number of
 elements to achieve much better accuracy.
 
+![Twin vortices formed for different cases](https://github.com/airwarriorg91/Comparison_NEK5000_and_Xcompact3d/blob/master/tv.png)
+
 ## Detailed Report on the experiment
 [Report Link](https://github.com/airwarriorg91/Comparison_NEK5000_and_Xcompact3d/blob/master/report/report.pdf)
